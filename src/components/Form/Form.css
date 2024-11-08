@@ -1,0 +1,38 @@
+form {
+  display: flex;
+  align-items: end;
+  gap: 30px;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+form label span {  
+  padding-left: 10px;
+}
+
+form input {
+  width: 183px;
+  padding: 10px 5px;
+
+  box-sizing: border-box;
+}
+
+form button {
+  height: 39px;
+  padding: 0 10px;
+  margin: 0;
+  background-color: white;
+
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+.ClockContainer {
+  display: flex;
+  gap: 80px;
+}

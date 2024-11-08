@@ -1,0 +1,83 @@
+.Clock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+
+  position: relative;
+}
+
+.Clock__dial {
+  width: 120px;
+  height: 120px;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+
+  position: relative;
+}
+
+.Clock__hand {
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform-origin: 100%;
+  transition: transform 0.05s ease-in-out;
+  background-color: #333;
+}
+
+.hour-hand {
+  width: 30%;
+  height: 6px;
+}
+
+.minute-hand {
+  width: 45%;
+  height: 4px;
+}
+
+.second-hand {
+  width: 50%;
+  height: 1px;
+  background-color: red;
+}
+
+.Clock__delete-btn {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  margin: 0;
+
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 45px;
+  right: -10px;
+}
+
+.Clock__digital {
+  width: 100px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(218, 218, 218);
+
+  border: 1px solid black;
+  border-radius: 12px;
+
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(0, 136, 16);
+}
